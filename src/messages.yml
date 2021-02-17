@@ -1,0 +1,38 @@
+prefix: '&a&lSurvitroll &8> &7'
+error-prefix: '&c&lError &8> &7'
+non-player: '¡No eres un jugador!'
+no-permission: '¡No tienes permisos para utilizar este comando!'
+user-not-found: 'El jugador %s no está online.'
+too-many-arguments: '¡Has escrito demasiados argumentos!'
+reload-config: '¡Configuración recargada!'
+
+fly:
+    prefix: '&e&lFly &8> &f'
+    fly-enabled: '&ahabilitado&f'
+    fly-disabled: '&cdesahbilitado&f'
+    fly-self: 'Tu modo de vuelo ha sido %s.'
+    fly-others: 'El modo de vuelo de &b%s&f ha sido %s.'
+give:
+    unknown-item: 'Item desconocido: %s.'
+    invalid-count: 'La cantidad no puede ser menor que 1 (Valor Ingresado: %s).'
+    given-item: 'El jugador %s ha recibido %s %s'
+# IPSECURITY
+ipsecurity:
+    prefix: '&e&lIPSecurity &8> &7'
+    invalid-ip: '¡&e%s &7no es una IP válida!'
+    existent-ip: '¡Esta IP ya está registrada!'
+    new-ip: '¡La IP &e%s &7ha sido registrada!'
+    info-disabled-protection: '&eEl usuario %s tiene su proteccion de IP desactivada.'
+    kick-message:
+      - '&c&lKickeado: &7Cuenta protegida por ip! Tu ip &e%s &7no'
+      - '&7está autorizada para acceder a esta cuenta.'
+      - ''
+      - '&7Si crees que esto es un error, contacta a un administrador.'
+      - '&dDiscord: &fhttps://discord.gg/5VYdwAN5s2'
+    help:
+      - '&cNo has escrito ningún argumento! Por favor utiliza:'
+      - ''
+      - '&6/ip <on/off>&8> &7Habilita/Deshabilita tu seguridad por Ip.'
+      - '&6/ip add <ip>&8> &7Autoriza el acceso de una ip'
+      - '&6/ip info&8> &7Obtiene información de tu cuenta'
+      - '&6/ip del <ip>&8> &7Desautoriza el acceso de una ip'

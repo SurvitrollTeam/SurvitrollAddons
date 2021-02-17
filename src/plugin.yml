@@ -1,0 +1,27 @@
+name: SurvitrollAddons
+prefix: Survitroll
+version: 1.5
+author: MonkeyKiller
+
+main: me.monkeykiller.survitroll.Main
+api-version: 1.16
+depend: [NBTAPI,TAB]
+
+commands:
+  cblocks:
+   description: Custom Block GUI
+  fly:
+   description: Allow flight
+   permission: survitroll.commands.fly
+  ip:
+   description: Ip Security
+   permission: survitroll.commands.ip
+  survitroll:
+   description: Main command
+   permission: survitroll.command
+  itemhax:
+   description: SECRET GIVE COMMAND
+   permission: survitroll.commands.give
+  mobhax:
+   description: SECRET SUMMON COMMAND
+   permission: survitroll.commands.summon

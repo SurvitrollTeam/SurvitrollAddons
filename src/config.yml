@@ -1,0 +1,4 @@
+Config:
+    ipsecurity:
+      enabled: true
+      prefix: "&eIPSecurity &8> &7"
